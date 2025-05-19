@@ -1,7 +1,7 @@
 import { Body, Controller, Post, Req, UseGuards } from '@nestjs/common';
 import { InvitesService } from './invite.service';
 import { InviteDto } from './dto/invite.dto';
-import { JwtAuthGuard } from 'src/modules/auth/jwt-auth.guard';
+import { JwtAuthGuard } from 'src/guards/jwt-auth.guard';
 import { CaslGuard } from 'src/casl/casl.guard';
 import { CheckAbilities } from 'src/decorators/casl.decorator';
 import { Invite } from './entities/invite.entity';
