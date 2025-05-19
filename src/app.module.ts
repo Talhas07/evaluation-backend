@@ -9,7 +9,7 @@ import { Invite } from './modules/invites/entities/invite.entity';
 import { APP_GUARD } from '@nestjs/core';
 import { CaslAbilityFactory } from './casl/casl-ability.factory';
 import { CaslGuard } from './casl/casl.guard';
-import { JwtAuthGuard } from './modules/auth/jwt-auth.guard';
+import { JwtAuthGuard } from './guards/jwt-auth.guard';
 import { AppService } from './app.service';
 import { AppController } from './app.controller';
 
